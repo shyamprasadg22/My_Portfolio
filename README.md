@@ -20,3 +20,6 @@ npm.cmd install
 npm.cmd run dev
 ```
 
+## Live Server
+https://my-portfolio-five-silk-36.vercel.app/
+
