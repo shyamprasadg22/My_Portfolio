@@ -16,7 +16,7 @@ A modern, interactive 3D Portfolio built with React, Three.js / React Three Fibe
 
 ### Installation & Running Locally
 ```bash
-npm install
-npm run dev
+npm.cmd install
+npm.cmd run dev
 ```
 
