@@ -1,16 +1,22 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, interactive 3D Portfolio built with React, Three.js / React Three Fiber, Tailwind CSS / Vanilla CSS, and Vite.
 
-Currently, two official plugins are available:
+## Features
+- **3D Hero Scene**: Dynamic interactive particles and 3D elements.
+- **Certificates Showcase**: Visual certificate display with modal views.
+- **Academic Highlights**: Timeline of education and academic achievements.
+- **Projects & Skills**: Detailed showcases of project builds and technical proficiency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Getting Started
 
-## React Compiler
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation & Running Locally
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
