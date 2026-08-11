@@ -4,7 +4,7 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import HeroScene from './3d/HeroScene';
 
 const stats = [
-  { label: 'CGPA', value: '8.85', sub: '/ 10' },
+  { label: 'CGPA', value: '8.72', sub: '/ 10' },
   { label: 'TNEA CUTOFF', value: '195.5', sub: '/ 200' },
   { label: 'LEETCODE', value: '25+', sub: 'SOLVED' },
   { label: 'WORKSHOPS', value: '10+', sub: 'ATTENDED' },

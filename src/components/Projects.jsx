@@ -9,6 +9,7 @@ const projects = [
     description:
       'Healthcare web application that tracks and monitors patient health records with an integrated emergency SOS notification feature.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Python'],
+    link: 'https://nexvita.onrender.com',
   },
   {
     number: '02',

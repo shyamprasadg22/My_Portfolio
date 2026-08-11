@@ -5,7 +5,9 @@ const timelineData = [
   { label: 'CLASS X', value: '465', sub: '/ 500 · 93%' },
   { label: 'CLASS XII', value: '573', sub: '/ 600 · 95.5%' },
   { label: 'TNEA CUTOFF', value: '195.5', sub: '/ 200' },
-  { label: 'B.E. CSE', value: '8.85', sub: '/ 10 CGPA' },
+  { label: 'SEM 1 SGPA', value: '8.85', sub: '/ 10 SGPA' },
+  { label: 'SEM 2 SGPA', value: '8.59', sub: '/ 10 SGPA' },
+  { label: 'OVERALL CGPA', value: '8.72', sub: '/ 10 CGPA' },
 ];
 
 export default function Academics() {

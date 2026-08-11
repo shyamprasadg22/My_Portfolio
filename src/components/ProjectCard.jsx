@@ -21,23 +21,31 @@ export default function ProjectCard({ project }) {
     setIsHovered(false);
   };
 
+  const Component = project.link ? 'a' : 'div';
+  const linkProps = project.link
+    ? { href: project.link, target: '_blank', rel: 'noopener noreferrer' }
+    : {};
+
   return (
-    <div
+    <Component
       ref={cardRef}
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave}
+      {...linkProps}
       style={{
         padding: '2.5rem',
         border: '1px solid var(--border)',
         background: isHovered ? 'rgba(255,255,255,0.02)' : 'transparent',
         transform: transform,
         transition: 'transform 0.3s ease, background 0.3s ease',
-        cursor: 'pointer',
+        cursor: project.link ? 'pointer' : 'default',
         display: 'grid',
         gridTemplateColumns: '1fr auto',
         gap: '2rem',
         alignItems: 'start',
+        textDecoration: 'none',
+        color: 'inherit',
       }}
       className="project-card"
     >
@@ -115,6 +123,6 @@ export default function ProjectCard({ project }) {
           }
         }
       `}</style>
-    </div>
+    </Component>
   );
 }

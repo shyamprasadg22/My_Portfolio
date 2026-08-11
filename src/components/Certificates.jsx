@@ -13,6 +13,7 @@ const certificates = [
   { id: 7, title: 'SRM Hackathon Finals', image: '/assets/certificates/cert7.jpeg' },
   { id: 8, title: 'Deploying AI at the Edge Workshop', image: '/assets/certificates/cert8.jpeg' },
   { id: 9, title: "LICET's Xplore '26", image: '/assets/certificates/cert9.jpeg' },
+  { id: 10, title: 'Python NeoColab', image: '/assets/certificates/cert10.jpg' },
 ];
 
 export default function Certificates() {
